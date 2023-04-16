@@ -1,0 +1,33 @@
+@charset "utf-8";
+div{
+}
+div.formRow {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 7px 0px;
+}
+div.formRow > * {
+	flex: 1 1 150;
+}
+form#Forb{
+	display: flex;
+	flex-flow: row wrap;
+}
+form#Forb > fieldset {
+	background-color: rgb(255,200,255);
+	border-radius: auto;
+	flex: 1 1 300px;
+	font-size: 0.85px;
+	padding: 10px;
+	margin: 10px;
+	
+}
+input::-webkit-input-placeholder {
+	color: rgb(0,150,0);
+}
+input:-ms-input-placeholder {
+	color: rgb(0,150,0);
+}
+input:-moz-input-placeholder {
+	color: rgb(0,150,0);
+}
